@@ -1,0 +1,523 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  }
+  
+  .header img {
+  padding: 1.5em;
+  width: 10%;
+  height: 10%;
+  background-color: #3a3939;
+  }
+  
+  .logo-eco img {
+  width: 4em;
+  height: 4em;
+  position: absolute;
+  left: 12%;
+  top: 1%;
+  }
+  
+  .icon1-rodape img {
+  position: absolute;
+  width: 2%;
+  height: 4%;
+  left: 19.5em;
+  top: 3.9em;
+  }
+  
+  .icon2-rodape img {
+  position: absolute;
+  width: 2%;
+  height: 4%;
+  left: 39em;
+  top: 3.9em;
+  }
+  
+  .icon3-rodape img {
+  position: absolute;
+  width: 2%;
+  height: 4%;
+  left: 62.5em;
+  top: 3.7em;
+  }
+  
+  .icon4-rodape img {
+  position: absolute;
+  width: 2%;
+  height: 4%;
+  left: 84.5em;
+  top: 3.7em;
+  }
+  
+  .icon5-rodape img {
+  position: absolute;
+  width: 2%;
+  height: 4%;
+  left: 105em;
+  top: 3.9em;
+  }
+  
+  .icon-home {
+  position: absolute;
+  width: 2%;
+  height: 1%;
+  left: 36%;
+  top: 2em;
+  }
+  
+  @font-face {
+  font-family: 'Abel-Regular';
+  src: url('fonts/Abel-Regular.ttf') format('truetype');
+  font-weight: normal;
+  }
+  
+  .topnav a {
+  font-family: 'Abel-regular', Times, serif;
+  font-size: 23px;
+  position: relative;
+  left: 150px;
+  top: -2.3em;
+  color: #ffffff;
+  text-align: center;
+  padding: 1% 2.5%;
+  text-decoration: none;
+  
+  }
+  
+  .banner-gif {
+  text-align: center;
+  padding: 15px;
+  }
+  
+  .cabecalho {
+  margin: 0;
+  background-color: #3a3939;
+  width: 100%;
+  }
+  
+  .topnav {
+  padding: 0% 2.5%;
+  display: flex;
+  justify-content: space-evenly;
+  
+  background-color: #3a3939;
+  }
+  
+  .nargas video {
+  position: relative;
+  top: -65px;
+  }
+  
+  .sus {
+  
+  position: absolute;
+  width: 20%;
+  height: 0%;
+  left: 2%;
+  top: 210px;
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 1000%;
+  font-size: 200%;
+  line-height: 58px;
+  
+  color: #ffffff;
+  
+  }
+  
+  .topnav a:hover {
+  color: #c5c3c3;
+  background-color: #3f3e3e9f;
+  }
+  
+  @font-face {
+  font-family: 'Greatvibes';
+  src: url('fonts/GreatVibes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  }
+  
+  .descrição p {
+  font-family: 'Abel-regular', Times, serif;
+  font-size: 2em;
+  margin: 4;
+  
+  }
+  
+  .morvan {
+  
+  position: absolute;
+  width: 197px;
+  height: 44px;
+  left: 41px;
+  top: 78px;
+  
+  font-family: 'Abel-regular', Times, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #FFFFFF;
+  }
+   
+  .intro {
+  position: absolute;
+  width: 40%;
+  height: 5%;
+  left: 35%;
+  top: 115%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 78px;
+  
+  color: #F1EBEB;
+  }
+  
+  .video video {
+  position: absolute;
+  top: 5%;
+  }
+  
+  .compo {
+  position: absolute;
+  width: 400px;
+  height: 87px;
+  left: 760px;
+  top: 1400px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 75px;
+  
+  color: #000000;
+  
+  background-image:
+  linear-gradient(to bottom,
+  transparent 0%,
+  transparent 90%,
+  rgb(0, 0, 0) 90%,
+  rgba(0, 0, 0, 0.712) 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+  
+  transition: background-size 400ms;
+  }
+  
+  .compo:hover {
+  background-size: 100% 100%;
+  background-position-x: left;
+  }
+  
+  .text1 {
+  position: absolute;
+  top: 145%;
+  left: 47%;
+  font-size: 64px;
+  font-family: 'Fugaz One';
+  font-style: normal;
+  }
+  
+  .card {
+  position: absolute;
+  top: 170%;
+  left: 20%;
+  width: 220px;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  }
+  .card1 {
+  position: absolute;
+  top: 170%;
+  left: 40%;
+  width: 220px;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  }
+  .card2 {
+  position: absolute;
+  top: 170%;
+  left: 60%;
+  width: 220px;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  }
+  .card3 {
+  position: absolute;
+  top: 220%;
+  left: 20%;
+  width: 220px;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  }
+  .card4 {
+  position: absolute;
+  top: 220%;
+  left: 40%;
+  width: 220px;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  }
+  .card5 {
+  position: absolute;
+  top: 220%;
+  left: 60%;
+  width: 220px;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  }
+  .card::before,/*leo*/
+  .card::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightblue;
+  transition: all 0.5s;
+  }
+  .card::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+  }
+  .card::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100% 0 15px;
+  }
+  .card:hover::before,
+  .card:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+  }
+  .card:hover:after {
+  content: "aluno103.23187325leonardo2gmail.com";
+  font-size: 10px;
+  }/*fim leo*/
+  .card1::before,/*Caetano*/
+  .card1::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightblue;
+  transition: all 0.5s;
+  }
+  .card1::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+  }
+  .card1::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100% 0 15px;
+  }
+  .card1:hover::before,
+  .card1:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+  }
+  .card1:hover:after {
+  content: "HELLO";
+  }/*fim caetano*/
+  .card2::before,/*dias*/
+  .card2::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightblue;
+  transition: all 0.5s;
+  }
+  .card2::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+  }
+  .card2::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100% 0 15px;
+  }
+  .card2:hover::before,
+  .card2:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+  }
+  .card2:hover:after {
+  font-size: 10px;
+  content: "HELLO";
+  }/*fim Dias*/
+  .card3::before,/*João*/
+  .card3::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightblue;
+  transition: all 0.5s;
+  }
+  .card3::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+  }
+  .card3::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100% 0 15px;
+  }
+  .card3:hover::before,
+  .card3:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+  }
+  .card3:hover:after {
+  content: "HELLO";
+  }/*fim João*/
+  .card4::before,/*Yan*/
+  .card4::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightblue;
+  transition: all 0.5s;
+  }
+  .card4::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+  }
+  .card4::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100% 0 15px;
+  }
+  .card4:hover::before,
+  .card4:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+  }
+  .card4:hover:after {
+  content: "HELLO";
+  }/*fim Yan*/
+  .card5::before,/*Nicolas*/
+  .card5::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightblue;
+  transition: all 0.5s;
+  }
+  .card5::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+  }
+  .card5::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100% 0 15px;
+  }
+  .card5:hover::before,
+  .card5:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+  }
+  .card5:hover:after {
+  content: "HELLO";
+  }/*fim Nicolas*/
